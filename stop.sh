@@ -1,1 +1,1 @@
-ps -ef | grep python3.*runserver | grep -v grep | cut -c 9-15 |xargs kill -9
+ps -ef | grep keeprun | grep -v grep | awk '{print $2}'| xargs kill -9
