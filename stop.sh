@@ -1,0 +1,1 @@
+ps -ef | grep python3.*runserver | grep -v grep | cut -c 9-15 |xargs kill -9
