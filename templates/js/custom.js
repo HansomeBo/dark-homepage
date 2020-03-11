@@ -140,7 +140,7 @@ function initMap() {
             ]
         }
     ];
-    map = new google.maps.Map(document.getElementById('map'), {
+/*    map = new google.maps.Map(document.getElementById('map'), {
        center: {lat: 23.822724694190565, lng: 88.7800669670105},
         // center: myCenter, 23.830262191202287 88.76633405685425
         zoom: 11,
@@ -151,7 +151,7 @@ function initMap() {
     console.log(e.latLng.lat(),e.latLng.lng())
                      document.getElementById('latlongclicked').value = e.latLng.lat()
                      document.getElementById('lotlongclicked').value =  e.latLng.lng()
-                 });
+                 });*/
 }
 
 function showPage(bt, pagename) {
