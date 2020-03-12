@@ -710,5 +710,16 @@ $(document).on('ready', function() {
 });
 }(jQuery));
 
+/*点击弹出图片*/
+function openWindow(obj){
+    document.getElementById(obj.name).style.display='block';
+    document.getElementById('fade').style.display='block';
+}
+function closeWindow(){
+    document.getElementById('light_weixin').style.display='none';
+    document.getElementById('light_qq').style.display='none';
+    document.getElementById('fade').style.display='none';
+}
+
 
 

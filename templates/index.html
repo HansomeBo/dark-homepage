@@ -91,10 +91,10 @@
 				<!--SOCIAL NAV MENU-->
 				<div class="social-menu-container">
 					<ul class="social-menu no-padding">                     
-						<li><a href="#" title="782281190"><i class="fa fa-qq"></i></a></li>
-						<li><a href="#" title="zuishuaixubo"><i class="fa fa-wechat"></i></a></li>
-						<li><a href="#" title="HansomeBo"><i class="fa fa-github"></i></a></li>
-						<li><a href="#" title="@HansomeBo"><i class="fa fa-weibo"></i></a></li>
+						<li><a href="#" name="light_qq" onclick="openWindow(this)" title="782281190"><i class="fa fa-qq"></i></a></li>
+						<li><a href="#" name="light_weixin" onclick="openWindow(this)" title="zuishuaixubo"><i class="fa fa-wechat"></i></a></li>
+						<li><a href="https://github.com/HansomeBo" title="HansomeBo"><i class="fa fa-github"></i></a></li>
+						<li><a href="https://weibo.com/u/5545039298" title="@HansomeBo"><i class="fa fa-weibo"></i></a></li>
 						{% comment %}<li><a href=""><i class="fa fa-phone"></i></a></li>{% endcomment %}
 					</ul>
 				</div><!--/.social-menu-container-->
@@ -541,7 +541,16 @@
 		</div><!-- /.modal-content -->
 	</div><!-- /.modal-dialog -->
 </div><!-- /.modal -->
-
+{% comment %}点击弹出图片{% endcomment %}
+<div id="light_qq" class="white_content" style="display: none">
+    <img src='static/hansomebo_qq.jpeg' />
+</div>
+<div id="light_weixin" class="white_content" style="display: none">
+    <img src='static/wechat_hansomebo.jpeg' />
+</div>
+<div id="fade" class="black_overlay"  onClick="closeWindow()">
+</div>
+{% comment %}点击弹出图片{% endcomment %}
 <!--javascript files
 =============================================================-->
 <script type="text/javascript" src="static/jQueryTween-aio-min.js"></script> <!-- JQUERY Tween Plugin -->
@@ -552,5 +561,6 @@
 {#<script src="http://ditu.google.cn/maps/api/js?key=AIzaSyBPNkCVoBW_Jzl6x-hgGU6e7QW1QMwKles"></script>#}
 <script type="text/javascript" src='static/isotope.pkgd.min.js'></script>
 <script type="text/javascript" src="static/custom.js"></script>
+
 </body>
 </html>
