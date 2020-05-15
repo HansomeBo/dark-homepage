@@ -12,7 +12,7 @@
 <meta name="description" content="">
 <meta name="author" content="">
 
-<!-- Mobile Specific Metas 
+<!-- Mobile Specific Metas
 ================================================== -->
 <meta content="width=device-width,initial-scale=1" name="viewport">
 
@@ -29,13 +29,13 @@
 <!--stylesheets
 ====================================================-->
 <link rel="stylesheet" type="text/css" href="static/bootstrap.min.css">
-<link rel="stylesheet" type="text/css" href="static/font-awesome.min.css">  
+<link rel="stylesheet" type="text/css" href="static/font-awesome.min.css">
 <link rel="stylesheet" type="text/css" href="static/style.css">
-<link rel="stylesheet" type="text/css" href="static/simpletextrotator.css"> 
+<link rel="stylesheet" type="text/css" href="static/simpletextrotator.css">
 
 <!--[if lt IE 9]>
 	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-<![endif]--> 
+<![endif]-->
 <script src="static/jquery.min.js"></script> <!-- JQUERY -->
 </head>
 <body>
@@ -44,8 +44,8 @@
 
 <div class="loading-screen"></div>
 
-<div id="frontpage"> 
-	<div class="shadow-img"></div> 
+<div id="frontpage">
+	<div class="shadow-img"></div>
 	<img src="static/front-image.jpg" class="front-img img-responsive" alt ="Front-image"><!--IMAGE FOR FRONT SCREEN-->
 	<h1>Hansome <span class="invert">Bo</span></h1><!--PROFILE NAME-->
 	<h3 class="invert" style="margin-top: -10px; margin-bottom: 10px;">JAVA <span class="rotate">Developer, Designer</span></h3> <!--SUBTITLE IN PROFILE-->
@@ -82,19 +82,19 @@
 						<span>Portfolio</span><i class="fa fa-suitcase fa-fw"></i>
 					</li>{% endcomment %}
 
-					<li class="nav-btn" title="Contact" id="contact-link" data-page="contact">
+					<li class="nav-btn" title="More" id="contact-link" data-page="contact">
 						<div class="hover-background"></div>
-						<span>Contact</span><i class="fa fa-paper-plane fa-fw"></i>
+						<span>More</span><i class="fa fa-paper-plane fa-fw"></i>
 					</li>
 				</ul><!--/.nav-menu __PAGE MENU ENDS-->
 
 				<!--SOCIAL NAV MENU-->
 				<div class="social-menu-container">
-					<ul class="social-menu no-padding">                     
+					<ul class="social-menu no-padding">
 						<li><a href="#" name="light_qq" onclick="openWindow(this)" title="782281190"><i class="fa fa-qq"></i></a></li>
 						<li><a href="#" name="light_weixin" onclick="openWindow(this)" title="zuishuaixubo"><i class="fa fa-wechat"></i></a></li>
 						<li><a href="https://github.com/HansomeBo" title="HansomeBo"><i class="fa fa-github"></i></a></li>
-						<li><a href="https://weibo.com/u/5545039298" title="@HansomeBo"><i class="fa fa-weibo"></i></a></li>
+						<li><a href="#" title="@HansomeBo"><i class="fa fa-weibo"></i></a></li>
 						{% comment %}<li><a href=""><i class="fa fa-phone"></i></a></li>{% endcomment %}
 					</ul>
 				</div><!--/.social-menu-container-->
@@ -105,26 +105,26 @@
 				<!--HOME/PROFILE PAGE-->
 				<li id="home" class="selected">
 					<div class="title-container hidden">
-						<div class="shadow-img"></div> 
+						<div class="shadow-img"></div>
 						<h2 class="rotate-out">Welcome To <span class="invert"> Profile </span></h2><!--HOME TITLE-->
 					</div>
 					<div class="description hidden">
-						<div class="watermark-home"></div> 
+						<div class="watermark-home"></div>
 
 						<div class="fade-text transparent">
 							<!--DESCRIPTION ON HOME-->
-							<div class="strong-text">Hello, I am <span>Hansome Bo</span></div>
+							<div class="strong-text">Hello, I am <span>徐 博</span></div>
 							<div class="focus-text"><span>JAVA Developer & </span><span>System Designer</span></div>
 							<!--<p class="large-paragraph">I have three years experience as a finance system designer and developer.</p>-->
-							<p class="large-paragraph">I have three years experience as a finance system developer.</p>
+							<p class="large-paragraph">喜欢新东西，喜欢有难度有挑战的工作，热爱编程，享受作为程序员解决问题的工作。 <strong>金融交易服务设计以及开发工作经验。</strong></p>
 							<!--DESCRIPTION ON HOME ENDS-->
 						</div>
 
 						<!--ALL PERSONAL DETAILS-->
-						<h3 class="personal-info-title title">Personal Info</h3>
+						<h3 class="personal-info-title title">个人简介</h3>
 						<ul class="personal-info">
 							<li class="rotate-out rotated"><label>Name</label><span>徐博</span></li>
-							<li class="rotate-out rotated"><label>Address</label><span>Shandong Linyi</span></li>
+							<li class="rotate-out rotated"><label>Age</label><span>1994-07-18</span></li>
 							<li class="rotate-out rotated"><label>Email</label><span>hansomebo@foxmail.com</span></li>
 							<li class="rotate-out rotated"><label>Phone</label><span>18844063961</span></li>
 						</ul><!--/ul.personal-info-->
@@ -142,103 +142,83 @@
 						<div class='tabs tabs_animate'>
 							<!--RESUME TAB LISTS-->
 							<ul class='horizontal no-padding'>
-								<li><a href="#tab-1" class="icon-bg icon-skills"><div>Skills</div></a></li>
-								<li><a href="#tab-2" class="icon-bg icon-education"><div>Educations</div></a></li>
-								<li><a href="#tab-3" class="icon-bg icon-employment"><div>Employment</div></a></li>
+								<li><a href="#tab-1" class="icon-bg icon-skills"><div>教育&技能</div></a></li>
+								<li><a href="#tab-2" class="icon-bg icon-education"><div>工作经历</div></a></li>
+								<li><a href="#tab-3" class="icon-bg icon-employment"><div>项目经历</div></a></li>
 							</ul><!--RESUME TAB LISTS ENDS-->
 
 							<!--RESUME FIRST TAB/SKILL TAB DETAILS-->
 							<div id='tab-1'>
-								<h3 class="title">OUR SKILLS</h3><!--SKILLS WITH BAR DISPLAY-->
-								<ul class="skills-list no-padding">
-									<li class="row">
-										<div class="col-xs-2"><div class="fw-mid">JAVA</div></div>
-										<div class="col-xs-9">
-											<div class="bar">
-												<div class="percentage" id="bar1" style="width: 90%;"></div>
-											</div>
-										</div>
-									</li>
-									<li class="row">
-										<div class="col-xs-2"><div class="fw-mid">Spring</div></div>
-										<div class="col-xs-9">
-											<div class="bar">
-												<div class="percentage" id="bar2" style="width: 75%;"></div>
-											</div>
-										</div>
-									</li>
-									<li class="row">
-										<div class="col-xs-2"><div class="fw-mid">SQL</div></div>
-										<div class="col-xs-9">
-											<div class="bar">
-												<div class="percentage" id="bar3" style="width: 75%;"></div>
-											</div>
-										</div>
-									</li>
-								</ul><!--SKILLS WITH BAR DISPLAY ENDS-->
+                                <ul class="employment-class tab-cont">
+                                    <li>
+                                        <!--EMPLOYMENT INDIVIDUAL LIST-->
+                                        <h5>长春理工大学</h5>
+                                        <h4>软件工程 | 本科<span class="year">2013—2017</span></h4>
 
-								<!--SKILLS WITH CIRCLE DISPLAY-->
-								<div class="circle-skill-container">
-									<h3 class="title">OTHER SKILLS</h3>
-									<div class="row">
-										<div class="col-xs-4 center-align">
-											<div class="circle-bar" id="line-container1">
-												<div class="progressbar-text" id="progress-text1">0</div>
-											</div>
-											<h5>Linux</h5>
-										</div>
-										<div class="col-xs-4 center-align">
-											<div class="circle-bar" id="line-container2">
-												<div class="progressbar-text" id="progress-text2">0</div>
-											</div>
-											<h5>Python</h5>
-										</div>
-										<div class="col-xs-4 center-align">
-											<div class="circle-bar" id="line-container3">
-												<div class="progressbar-text" id="progress-text3">0</div>
-											</div>
-											<h5>UML</h5>
-										</div>
-									</div>
-								</div><!--SKILLS WITH CIRCLE DISPLAY ENDS-->
-							</div><!--RESUME FIRST TAB/SKILL TAB DETAILS ENDS-->
-							
+                                        <p>● 在校期间与同学参加大创比赛，创建大学生兼职项目</p>
+                                        <p>● 阿里云服务器部署，校内三千用户注册</p>
+                                        <p>● 大学生创业比赛三等奖</p>
+
+                                    </li>
+                                    <li>
+                                        <!--EMPLOYMENT INDIVIDUAL LIST-->
+                                        <h5>主要技能</h5>
+
+                                        <p>技术储备：</p>
+                                        <p>Spring、Spring Boot、Spring Cloud、Rabbit MQ、MyBatis、Redis、MySQL、Oracle</p>
+                                        <p>微服务体系：</p>
+                                        <p>熟悉微服务体系的搭建、网关路由、熔断降级、负载均衡、分布式事务</p>
+                                        <p>贷款业务：</p>
+                                        <p>乐于和业务沟通，学习业务概念，熟悉贷款相关产品、费用、协议、交易的流程和概念</p>
+                                        <p>系统调优：</p>
+                                        <p>微服务体系中节点拆分、边界划分，交易幂等保证，柔性事务保证，长流程异步化处理</p>
+                                    </li>
+                                </ul>
+                            </div><!--RESUME FIRST TAB/SKILL TAB DETAILS ENDS-->
+
 							<!--RESUME SECOND TAB/EDUCATION TAB DETAILS-->
 							<div id='tab-2'>
-								<h3 class="title">EDUCATIONS</h3>
+								<h3 class="title">项目经历</h3>
 								<ul class="education-class">
-									{% comment %}<li>
-										<!--EDUCATION LIST ITEM-->
-										<h4 class="title">MSc in Computer Sciene<i class="fa fa-sort-desc pull-right"></i></h4>
-										<div class="list-content">
-											<h5 class="title">Consectetur adipiscing <span class="list-year">(2014 - 2005)</span></h5>
-											<p>Lorem ipsum dolor sit amet, consectetur adipiscing Vivamus sit Vivamus sit. Vivamus sit.. consectetur adipiscing Vivamus sit. Vivamus sit</p><!--EDUCATION LIST DETAILS-->
-										</div>
-									</li>
-									<li>
-										<!--EDUCATION LIST ITEM-->
-										<h4 class="title">Grad At Computer Engineering<i class="fa fa-sort-desc pull-right"></i></h4>
-										<div class="list-content current">
-											<h5 class="title">Consectetur adipiscing <span class="list-year">(2014 - 2005)</span></h5>
-											<p>Lorem ipsum dolor sit amet, consectetur adipiscing Vivamus sit Vivamus sit. Vivamus sit.. consectetur adipiscing Vivamus sit. Vivamus sit</p><!--EDUCATION LIST DETAILS-->
-										</div>
+									<ul class="employment-class tab-cont">
+										{% comment %}<li>
+										<!--EMPLOYMENT INDIVIDUAL LIST-->
+										<h4>Manager <span class="year">2014 - 2005</span></h4>
+										<h5>Consectetur adipiscing</h5>
+										<p>Lorem ipsum dolor sit amet, consectetur adipiscing Vivamus sit Vivamus sit. Vivamus sit.. consectetur adipiscing Vivamus sit.</p><!--EMPLOYMENT LIST DETAILS-->
 									</li>{% endcomment %}
-									<li>
-										<!--EDUCATION LIST ITEM-->
-										<h4 class="title">College<i class="fa fa-sort-desc pull-right"></i></h4>
-										<div class="list-content">
-											<h5 class="title">长春理工大学<span class="list-year">(2013 - 2017)</span></h5>
-											<p>软件工程专业</p><!--EDUCATION LIST DETAILS-->
-										</div>
-									</li>
-									<li>
-										<!--EDUCATION LIST ITEM-->
-										<h4 class="title">Schools<i class="fa fa-sort-desc pull-right"></i></h4>
-										<div class="list-content">
-											<h5 class="title">霍格沃滋 <span class="list-year">(2010 - 2013)</span></h5>
-											<p>........</p><!--EDUCATION LIST DETAILS-->
-										</div>
-									</li>
+										<li>
+											<!--EMPLOYMENT INDIVIDUAL LIST-->
+											<h5>首金金融</h5>
+											<h4>资产端开发组长<span class="year">2017 - 至今</span></h4>
+
+											<p><b>内容：资产端开发组长</b></p>
+											<p>● 系统设计</p>
+											<p>● 业务和技术结合，业务需求转化</p>
+											<p>● 微服务拆分、领域划分</p>
+											<p>● 技术方案选型和落地</p>
+
+											<p><b>业绩：完成核心交易系统由单体服务到微服务的升级</b></p>
+											<p>● 系统设计：资产核心交易系统、产品中心、费用中心、任务调度中心、对账中心的设计和技术方案落地</p>
+											<p>● 微服务化：细化和明确领域边界，拆分下沉服务，解决微服务化过程中的技术问题</p>
+											<p>● 系统开发：参与核心交易系统的开发、对同事开发代码进行Review和代码规范监督</p>
+											<p>● 需求转化：对接业务，结合技术，转化为领域设计语言，和团队讨论和理解</p>
+											<p>● 方案落地：技术方案选型和落地</p>
+											<p>● 团队协作：协调开发任务，组织团队讨论技术方案的利弊并完善，帮助团队成员解决问题和协调资源</p>
+
+										</li>
+										<li>
+											<!--EMPLOYMENT INDIVIDUAL LIST-->
+											<h5>东方国信</h5>
+											<h4> 核心开发 <span class="year">2016 - 2017</span></h4>
+
+
+											<p>内容：核心开发</p>
+											<p>● 非结构化数据结构化处理分析</p>
+											<p>● 大批量数据快速检索</p>
+											<p>● 数据可视化展示</p><!--EMPLOYMENT LIST DETAILS-->
+										</li>
+									</ul>
 								</ul>
 							</div><!--RESUME SECOND TAB/EDUCATION TAB DETAILS ENDS-->
 							<!--RESUME THIRD TAB/EMPLYMENT TAB DETAILS ENDS-->
@@ -253,15 +233,81 @@
 									</li>{% endcomment %}
 									<li>
 										<!--EMPLOYMENT INDIVIDUAL LIST-->
-										<h4> Developer <span class="year">2017 - 2020</span></h4>
-										<h5>首金金融</h5>
-										<p>交易系统开发、系统设计</p><!--EMPLOYMENT LIST DETAILS-->
+										<h5>首金新核心交易系统</h5>
+										<h4> 开发组长&系统设计 <span class="year">2018.03—2018.08</span></h4>
+										<p>技术选型：</p>
+										<p>SpringCloud + MySQL + TCC + Redis + RabbitMQ + Swagger</p>
+										<p>Eureka + Config + Hystrix + Ribbon + ZipKin + Monitor</p>
+										<p>服务简介：</p>
+										<p>1. 费用服务：针对费用计费实现费用分层分段，费用因子灵活配置，按日计费。</p>
+										<p>2. 产品服务：抽象产品的公共属性，使用纵表结构灵活存储产品属性，统一平台产品，赋予产品定价和试算的能力。</p>
+										<p>3. 交易服务：异步流式处理，提高并发量和吞吐量，在保证幂等的前提下，对关键节点进行自动重试，降低失败率。</p>
+										<p>4. 协议服务：抽象借贷规则，统一管理平台协议，异步事件保证处理效率，归档验证保证协议数据的准确性和一致性。</p>
+										<p>技术要点：</p>
+										<p>1. 使用SpringCloud实现微服务的拆分，细化服务职责</p>
+										<p>2. 对MySQL数据库进行分库分表，减轻数据库压力</p>
+										<p>3. 使用RabbitMQ进行消息异步处理，提升服务并发处理能力</p>
+										<p>4. 使用TCC实现分布式事务</p>
+										<p>5. 链路跟踪、配置统一管理</p>
+										<p>6. 核心交易服务实现异常自治理</p>
+
+										<p>业绩：服务由1.0到2.0的彻底升级</p>
+										<p>1. 将原本单体大服务按领域拆分为微服务</p>
+										<p>2. 大大提高交易并发处理能力，异常自治理能力，快速迭代更新能力</p>
+
+										<p>项目链接：www.shoujinwang.com</p>
+										<!--EMPLOYMENT LIST DETAILS-->
 									</li>
 									<li>
 										<!--EMPLOYMENT INDIVIDUAL LIST-->
-										<h4> Developer <span class="year">2016 - 2017</span></h4>
-										<h5>东方国信</h5>
-										<p>核心开发、文本分析、数据可视化</p><!--EMPLOYMENT LIST DETAILS-->
+										<h5>智享方案债转系统</h5>
+										<h4> 核心开发 <span class="year">2017.12—2018.03</span></h4>
+
+										<p>技术选型：</p>
+										<p>Spring Boot + Eureka + Config + FeignClient + MySQL + RabbitMQ</p>
+										<p>描述：</p>
+										<p>● 账户、银行、用户、资产、投资、任务服务独立拆分</p>
+										<p>● 各服务资源独立，通过RPC调用进行通信</p>
+										<p>● 分布式事务保证核心交易的分布式最终一致性</p>
+
+										<p>业绩：</p>
+										<p>● 提升平台的交易量和交易成功率</p>
+										<p>● 服务拆分，快速开发，功能快速迭代更新</p>
+									</li>
+									<li>
+										<!--EMPLOYMENT INDIVIDUAL LIST-->
+										<h5>⾦融平台对账系统</h5>
+										<h4> 系统设计＆＆开发 <span class="year">2017.07—2018.02</span></h4>
+
+										<p>技术选型：</p>
+										<p>SpringBatch + Oracle + Quartz</p>
+										<p>描述：</p>
+										<p>● 全平台交易对账</p>
+										<p>● 银⾏和本地对账</p>
+										<p>● 资⾦、资产、余额对账</p>
+										<p>业绩：</p>
+										<p>● 批处理分批、分步将对账时间⼤⼤缩减</p>
+										<p>● ⾃动化对账，及时找出错账，漏单等问题</p>
+										<p>● 细致了解了全平台的交易业务流程</p>
+										<p>● 通过对账核对出来的差异，进⼀步定位各服务的问题点并向对应开发提出修改意见</p>
+									</li>
+									<li>
+										<!--EMPLOYMENT INDIVIDUAL LIST-->
+										<h5>文本管理系统</h5>
+										<h4> 核心开发 <span class="year">2016.08—2017.04</span></h4>
+
+										<p>描述：</p>
+										<p>1.使用struts2和mybatis框架进行系统编程，使用redis内存数据库加快搜索，使用Oracle进行数据存储。</p>
+										<p>2.对文本进行分析，进行聚类分类，命名实体识别，导语抽取等。</p>
+										<p>3.使用echarts图形化界面将数据通过页面呈现给用户。</p>
+										<p>4.使用ElasticSearch提高搜索准确度和全文本搜索速度。</p>
+										<p>5.使用arcgis进行地图编辑。</p>
+
+										<p>业绩：</p>
+										<p>1.对Oracle有了更细致的了解，面对一些常见问题有了更多经验。</p>
+										<p>2.在加速搜索速度方面有了更多解决方案。例如redis和ElasticSearch。</p>
+										<p>3.通过和客户交流，了解到真实项目中编程人员和客户有着一定代沟，所以要用耐心向客户解释。</p>
+										<p>4.项目中经常遇到没使用过的技术，所以要不惧挑战，随时准备学习新东西。</p>
 									</li>
 								</ul>
 							</div><!--RESUME THIRD TAB/EMPLYMENT TAB DETAILS ENDS-->
@@ -273,10 +319,10 @@
 				<li id="portfolio" class="hidden">
 					<div class="title-container">
 						<div class="shadow-img"></div>
-						<h2 class="rotate-out rotated">Portfolio</h2> <!--PORTFOLIO TITLE-->                         
+						<h2 class="rotate-out rotated">Portfolio</h2> <!--PORTFOLIO TITLE-->
 					</div>
 
-					<!--PORTFOLIO CATEGORY LIST-->    
+					<!--PORTFOLIO CATEGORY LIST-->
 					<div class="abs-child">
 						<ul class="button-group filters-button-group">
 							<li class="button is-checked" data-filter="*">Show All</li>
@@ -285,95 +331,107 @@
 							<li class="button" data-filter=".potrait">Potrait</li>
 						</ul><!--/.button-group filters-button-group-->
 					</div>
-					
-					<div class ="sec-porfolio description"> 
+
+					<div class ="sec-porfolio description">
 						<div class="row">
 							<!--PORTFOLIO ITEM CONTAINER-->
 							<div class="folio-container">
 								<ul class="folio-item"><!--PORTFOLIO INDIVIDAUAL ITEM-->
-									<li class="view view-first photography">  
-										<img src="static/folio/logs.jpg" alt="logs" /><!--PORTFOLIO INDIVIDAUAL ITEM IMAGE--> 
-										<div class="mask">  
-											 <h2>woodsman</h2> <!--PORTFOLIO INDIVIDAUAL ITEM TITLE-->                               
+									<li class="view view-first photography">
+										<img src="static/folio/logs.jpg" alt="logs" /><!--PORTFOLIO INDIVIDAUAL ITEM IMAGE-->
+										<div class="mask">
+											 <h2>woodsman</h2> <!--PORTFOLIO INDIVIDAUAL ITEM TITLE-->
 											<!-- Button trigger modal -->
 											<a role="button" class="info" data-toggle="modal" data-target="#myModal">Read More</a><!--PORTFOLIO INDIVIDAUAL ITEM MODAL LINK BY 'data-target'-->
-										 </div>  
-									</li>  
+										 </div>
+									</li>
 									<li class="view view-second commercial"><!--PORTFOLIO INDIVIDAUAL ITEM-->
-									  <img src="static/folio/book.jpg" alt="book" /><!--PORTFOLIO INDIVIDAUAL ITEM IMAGE--> 
+									  <img src="static/folio/book.jpg" alt="book" /><!--PORTFOLIO INDIVIDAUAL ITEM IMAGE-->
 										<div class="mask"></div>
 										<div class="content">
-											<h2>Hover Style #2</h2><!--PORTFOLIO INDIVIDAUAL ITEM TITLE-->                                  
+											<h2>Hover Style #2</h2><!--PORTFOLIO INDIVIDAUAL ITEM TITLE-->
 											<a role="button" class="info" data-toggle="modal" data-target="#myModal2">Read More</a><!--PORTFOLIO INDIVIDAUAL ITEM MODAL LINK BY 'data-target'-->
 										</div>
 									</li>
-									<li class="view view-tenth photography"> <!--PORTFOLIO INDIVIDAUAL ITEM--> 
-										 <img src="static/folio/beach.jpg" alt="beach" /> <!--PORTFOLIO INDIVIDAUAL ITEM IMAGE-->  
-										 <div class="mask">  
-											 <h2>New York</h2><!--PORTFOLIO INDIVIDAUAL ITEM TITLE-->                                    
+									<li class="view view-tenth photography"> <!--PORTFOLIO INDIVIDAUAL ITEM-->
+										 <img src="static/folio/beach.jpg" alt="beach" /> <!--PORTFOLIO INDIVIDAUAL ITEM IMAGE-->
+										 <div class="mask">
+											 <h2>New York</h2><!--PORTFOLIO INDIVIDAUAL ITEM TITLE-->
 											 <a role="button" class="info" data-toggle="modal" data-target="#myModal5">Read More</a>  <!--PORTFOLIO INDIVIDAUAL ITEM MODAL LINK BY 'data-target'-->
-										 </div>  
-									</li>                         
+										 </div>
+									</li>
 									<li class="view view-second commercial"><!--PORTFOLIO INDIVIDAUAL ITEM-->
-									  <img src="static/folio/guy.jpg" alt="guy" /><!--PORTFOLIO INDIVIDAUAL ITEM IMAGE--> 
+									  <img src="static/folio/guy.jpg" alt="guy" /><!--PORTFOLIO INDIVIDAUAL ITEM IMAGE-->
 										<div class="mask"></div>
 										<div class="content">
-											<h2>Image Name</h2><!--PORTFOLIO INDIVIDAUAL ITEM TITLE-->                                 
+											<h2>Image Name</h2><!--PORTFOLIO INDIVIDAUAL ITEM TITLE-->
 											<a role="button" class="info" data-toggle="modal" data-target="#myModal3">Read More</a><!--PORTFOLIO INDIVIDAUAL ITEM MODAL LINK BY 'data-target'-->
 										</div>
-									</li> 
-														
-									<li class="view view-first potrait"><!--PORTFOLIO INDIVIDAUAL ITEM-->  
-										 <img src="static/folio/illustration.jpg" alt="illustration" /><!--PORTFOLIO INDIVIDAUAL ITEM IMAGE-->   
-										 <div class="mask">  
-											 <h2>New York</h2>                                   
-											 <a role="button" class="info" data-toggle="modal" data-target="#myModal4">Read More</a> <!--PORTFOLIO INDIVIDAUAL ITEM MODAL LINK BY 'data-target'--> 
-										 </div>  
-									</li>                         
+									</li>
+
+									<li class="view view-first potrait"><!--PORTFOLIO INDIVIDAUAL ITEM-->
+										 <img src="static/folio/illustration.jpg" alt="illustration" /><!--PORTFOLIO INDIVIDAUAL ITEM IMAGE-->
+										 <div class="mask">
+											 <h2>New York</h2>
+											 <a role="button" class="info" data-toggle="modal" data-target="#myModal4">Read More</a> <!--PORTFOLIO INDIVIDAUAL ITEM MODAL LINK BY 'data-target'-->
+										 </div>
+									</li>
 									<li class="view view-second photography"><!--PORTFOLIO INDIVIDAUAL ITEM-->
-									  <img src="static/folio/guy.jpg" alt="guy" /><!--PORTFOLIO INDIVIDAUAL ITEM IMAGE--> 
+									  <img src="static/folio/guy.jpg" alt="guy" /><!--PORTFOLIO INDIVIDAUAL ITEM IMAGE-->
 										<div class="mask"></div>
 										<div class="content">
-											<h2>Image Name</h2><!--PORTFOLIO INDIVIDAUAL ITEM TITLE-->                                 
+											<h2>Image Name</h2><!--PORTFOLIO INDIVIDAUAL ITEM TITLE-->
 											<a role="button" class="info" data-toggle="modal" data-target="#myModal3">Read More</a><!--PORTFOLIO INDIVIDAUAL ITEM MODAL LINK BY 'data-target'-->
 										</div>
-									</li> 
-									<li class="view view-tenth potrait"> <!--PORTFOLIO INDIVIDAUAL ITEM--> 
-										<img src="static/folio/logs.jpg" alt="logs" /> <!--PORTFOLIO INDIVIDAUAL ITEM IMAGE-->  
-										<div class="mask">  
-											 <h2>woodsman</h2><!--PORTFOLIO INDIVIDAUAL ITEM TITLE-->                            
-											 <a role="button" class="info" data-toggle="modal" data-target="#myModal">Read More</a> <!--PORTFOLIO INDIVIDAUAL ITEM MODAL LINK BY 'data-target'--> 
-										 </div>  
-									</li>   
-									
-									<li class="view view-tenth commercial"><!--PORTFOLIO INDIVIDAUAL ITEM-->  
-										 <img src="static/folio/beach.jpg" alt="beach" /> <!--PORTFOLIO INDIVIDAUAL ITEM IMAGE-->  
-										 <div class="mask">  
-											 <h2>New York</h2><!--PORTFOLIO INDIVIDAUAL ITEM TITLE-->                                    
-											 <a role="button" class="info" data-toggle="modal" data-target="#myModal5">Read More</a> <!--PORTFOLIO INDIVIDAUAL ITEM MODAL LINK BY 'data-target'--> 
-										 </div>  
-									</li>             
-																							
-											  
+									</li>
+									<li class="view view-tenth potrait"> <!--PORTFOLIO INDIVIDAUAL ITEM-->
+										<img src="static/folio/logs.jpg" alt="logs" /> <!--PORTFOLIO INDIVIDAUAL ITEM IMAGE-->
+										<div class="mask">
+											 <h2>woodsman</h2><!--PORTFOLIO INDIVIDAUAL ITEM TITLE-->
+											 <a role="button" class="info" data-toggle="modal" data-target="#myModal">Read More</a> <!--PORTFOLIO INDIVIDAUAL ITEM MODAL LINK BY 'data-target'-->
+										 </div>
+									</li>
+
+									<li class="view view-tenth commercial"><!--PORTFOLIO INDIVIDAUAL ITEM-->
+										 <img src="static/folio/beach.jpg" alt="beach" /> <!--PORTFOLIO INDIVIDAUAL ITEM IMAGE-->
+										 <div class="mask">
+											 <h2>New York</h2><!--PORTFOLIO INDIVIDAUAL ITEM TITLE-->
+											 <a role="button" class="info" data-toggle="modal" data-target="#myModal5">Read More</a> <!--PORTFOLIO INDIVIDAUAL ITEM MODAL LINK BY 'data-target'-->
+										 </div>
+									</li>
+
+
 								</ul>
 							</div>
 							<!--PORTFOLIO ITEM CONTAINER ENDS-->
-						</div>                          
+						</div>
 					</div>
 				</li><!--/#portfolio-->
 
 				<!--CONTACT PAGE-->
 				<li id="contact" class="hidden">
 					<div class="title-container" >
-						<div class="shadow-img"></div>               
-					   <h2 class="rotate-out rotated">Contact</h2><!--CONTACT PAGE TITLE-->
+						<div class="shadow-img"></div>
+					   <h2 class="rotate-out rotated">More</h2><!--CONTACT PAGE TITLE-->
 					</div>
-					<div class="description">                           
+					<div class="description">
 						<div class="row">
 							<div class="col-sm-12">
-								<div class="map-container">
-									<div id="map" style="width:100%;height:325px;"></div><!--GOOGLE MAP-->
-								</div>
+                                <ul class="employment-class tab-cont">
+                                    <li>
+                                        <h5>资格证书</h5>
+                                        <p>英语专业四级 大学英语六级</p>
+                                    </li>
+                                    <li>
+                                        <h5>所获奖励</h5>
+                                        <p>● 大学生创业比赛三等奖</p>
+                                        <p>● 因新核心项目所做出的突出贡献，被评为年度优秀员工</p>
+                                    </li>
+                                    <li>
+                                        <h5>期望职位</h5>
+                                        <p>Java  北京  20-30K  互联网·银行·互联网金融</p>
+                                    </li>
+                                </ul>
 							</div>
 
 							<div class="col-sm-5">
@@ -385,37 +443,12 @@
 								<!--/CONTACT DESCRIPTION ENDS-->
 							</div>
 							<div class="col-sm-7">
+							</div>
 
-								{% comment %}<div class="mail-container">
-									<div class="cnmail result">
-										<div class="msg success-msg"><i class="icon svg-check"><!--?xml version="1.0" encoding="utf-8"?-->  <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32" viewBox="0 0 32 32"> <path d="M16 2.688c-7.375 0-13.313 5.938-13.313 13.313s5.938 13.313 13.313 13.313c7.375 0 13.313-5.938 13.313-13.313s-5.938-13.313-13.313-13.313zM16 28.25c-6.75 0-12.25-5.5-12.25-12.25s5.5-12.25 12.25-12.25c6.75 0 12.25 5.5 12.25 12.25s-5.5 12.25-12.25 12.25zM22.688 11.25l-8.563 8.313-3-3c-0.313-0.313-0.813-0.313-1.125 0s-0.313 0.813 0 1.125l3.563 3.563c0.125 0.125 0.313 0.188 0.563 0.188 0.188 0 0.375-0.063 0.5-0.188l9.125-8.875c0.375-0.313 0.375-0.813 0.063-1.125s-0.813-0.313-1.125 0z"></path> </svg> </i><span> You email has been stored!</span></div>
-										<div class="msg error-msg"><i class="icon svg-close-circle"><!--?xml version="1.0" encoding="utf-8"?-->  <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32" viewBox="0 0 32 32"> <path d="M6.563 6.563c-5.188 5.188-5.188 13.688 0 18.875s13.688 5.188 18.875 0c5.188-5.188 5.188-13.625 0-18.875-5.188-5.188-13.625-5.188-18.875 0zM24.688 24.688c-4.813 4.75-12.563 4.75-17.375 0-4.75-4.813-4.75-12.563 0-17.375 4.813-4.75 12.563-4.75 17.375 0 4.75 4.813 4.75 12.563 0 17.375zM10.75 10l-0.813 0.75 5.313 5.25-5.25 5.25 0.75 0.75 5.25-5.25 5.25 5.25 0.75-0.75-5.25-5.25 5.313-5.25-0.813-0.75-5.25 5.25z"></path> </svg> </i><span> Sorry! Something went wrong!</span></div>
-									</div>
-									<h3 class="title invert">Welcome to email me</h3>
-									<!--CONTACT FORM-->
-									<form action="sendmail.php" class="form-horizontal" id="contact-form">
-										<div class="form-group">
-											<input name="name" class="form-control required" placeholder="Name" data-placement="top" type="text">
-										</div>                                    
-										<div class="form-group">
-											<input name="email" class="form-control email" placeholder="Email" type="text">
-										</div>                   
-										<div class="form-group">
-											<textarea name="message" class="form-control" placeholder="Message" rows="3"></textarea>
-										</div>
-										<div class="form-group">
-											<button type="submit" class="btn btn-success">SEND</button>
-										</div>
-
-									</form><!--/#contact-form-->
-								</div>     {% endcomment %}
-								
-							</div>                          
-							
 						</div>
 					</div>
 				</li><!--/#contact-->
-			</ul> 
+			</ul>
 
 			<div class="row mobile-nav-container">
 				<!--SOCIAL NAV FOR MOBILE-->
@@ -427,7 +460,7 @@
 					<li><a href=""><i class="fa fa-pinterest-p"></i></a></li>
 					<li><a href=""><i class="fa fa-linkedin"></i></a></li>
 				</ul><!--/.mobile-social-->
-			</div>               
+			</div>
 		</div><!--/.page-segment -->
 	</div>
 </div><!--/.container -->
@@ -446,7 +479,7 @@
 			<div class="modal-footer">
 				<div class="mf-content">
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis temporibus fuga sit explicabo blanditiis voluptate iste vero quia impedit? Iusto illo voluptas est praesentium veritatis magni, pariatur laboriosam voluptatem inventore.</p>
-				</div>                      
+				</div>
 			</div>
 		</div><!-- /.modal-content -->
 	</div><!-- /.modal-dialog -->
@@ -465,7 +498,7 @@
 			<div class="modal-footer">
 				<div class="mf-content">
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel sapiente, odit, illo saepe voluptate eos enim eius autem cumque ab, soluta dolor tempore inventore eligendi maxime voluptas pariatur explicabo blanditiis?</p>
-				</div>                      
+				</div>
 			</div>
 		</div><!-- /.modal-content -->
 	</div><!-- /.modal-dialog -->
@@ -484,7 +517,7 @@
 			<div class="modal-footer">
 				<div class="mf-content">
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur ratione quae, alias at. Reprehenderit, ut quis corporis laudantium, laborum sed omnis qui perspiciatis explicabo. Ipsum culpa aspernatur dolorem. Amet, quis.</p>
-				</div>                      
+				</div>
 			</div>
 		</div><!-- /.modal-content -->
 	</div><!-- /.modal-dialog -->
@@ -503,7 +536,7 @@
 			<div class="modal-footer">
 				<div class="mf-content">
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus ab id unde veniam error et iste ut aspernatur accusantium porro molestiae voluptatibus rem, tempore inventore ad minus soluta praesentium magni?</p>
-				</div>                      
+				</div>
 			</div>
 		</div><!-- /.modal-content -->
 	</div><!-- /.modal-dialog -->
@@ -522,7 +555,7 @@
 			<div class="modal-footer">
 				<div class="mf-content">
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam amet placeat porro, maxime corrupti laboriosam, quod nulla perferendis esse ipsa atque deleniti. Magni molestias, nemo illum eos, exercitationem neque incidunt.</p>
-				</div>                      
+				</div>
 			</div>
 		</div><!-- /.modal-content -->
 	</div><!-- /.modal-dialog -->
@@ -554,7 +587,7 @@
 <!--javascript files
 =============================================================-->
 <script type="text/javascript" src="static/jQueryTween-aio-min.js"></script> <!-- JQUERY Tween Plugin -->
-<script type="text/javascript" src="static/jquery.tabslet.min.js"></script> <!-- JQUERY Tab plugin-->     
+<script type="text/javascript" src="static/jquery.tabslet.min.js"></script> <!-- JQUERY Tab plugin-->
 <script type="text/javascript" src="static/progressbar.min.js"></script> <!-- JQUERY Progressbar Plugin-->
 <script type="text/javascript" src="static/jquery.simple-text-rotator.min.js"></script> <!-- JQUERY Text Rotator-->
 <script type="text/javascript" src="static/bootstrap.min.js"></script> <!-- Bootstrap file-->
