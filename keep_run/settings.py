@@ -126,4 +126,5 @@ STATICFILES_DIRS = (
     os.path.join(BASE_DIR, 'templates/images'),
     os.path.join(BASE_DIR, 'templates/js'),
     os.path.join(BASE_DIR, 'templates/fonts'),
+    os.path.join(BASE_DIR, 'templates/profile'),
 )
