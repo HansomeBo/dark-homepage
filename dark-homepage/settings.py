@@ -122,9 +122,5 @@ USE_TZ = True
 STATIC_URL = '/static/'
 
 STATICFILES_DIRS = (
-    os.path.join(BASE_DIR, 'templates/css'),
-    os.path.join(BASE_DIR, 'templates/images'),
-    os.path.join(BASE_DIR, 'templates/js'),
-    os.path.join(BASE_DIR, 'templates/fonts'),
-    os.path.join(BASE_DIR, 'templates/profile'),
+    os.path.join(BASE_DIR, 'templates/files'),
 )
